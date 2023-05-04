@@ -1,9 +1,9 @@
 
-        # title
+        # test
 
         ## Description
 
-        description
+        test
 
         ## Table of Contents
 
@@ -17,23 +17,23 @@
 
         ## Installation
 
-        installation instructions
+        test
 
         ## Usage
 
-        usage instructions
+        test
 
         ## License
 
-        This project is licensed under the None license.
+        This project is licensed under the BSD 2-Clause "Simplified" License license.
 
         ## Contributing
 
-        contribution guidelines
+        test
 
         ## Tests
 
-        test instructions
+        test
 
         ## Questions
 
