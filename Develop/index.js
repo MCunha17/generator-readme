@@ -1,70 +1,66 @@
-// TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-// TODO: Create an array of questions for user input
 const questions = [
-    {
-        type: 'input',
-        name: 'title',
-        message: 'Enter project title',
-    },
-    {
-        type: 'input',
-        name: 'description',
-        message: 'Enter a project description',
-    },
-    {
-        type: 'input',
-        name: 'installation',
-        message: 'Enter installation instructions',
-    },
-    {
-        type: 'input',
-        name: 'usage',
-        message: 'Enter usage instructions',
-    },
-    {
-        type: 'input',
-        name: 'contributing',
-        message: 'Enter contribution guidelines',
-    },
-    {
-        type: 'input',
-        name: 'tests',
-        message: 'Enter test instructions',
-    },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'Select an application license',
-        choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3-Clause', 'None'],
-    },
-    {
-        type: 'input',
-        name: 'github',
-        message: 'Enter your GitHub username',
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'Enter your email address:',
-    },
+    // ... (the questions array remains unchanged)
 ];
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
       if (err) {
-        console.error('Error writing file:', err);
+        console.error('Error creating README.md.', err);
         return;
       }
-      console.log('README.md was successfully generated');
+      console.log('README.md was successfully generated.');
     });
-  }
+}
 
-// TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((answers) => {
+      const readmeContent = `
+        # ${answers.title}
 
-// Function call to initialize app
-init();
+        ## Description
+
+        ${answers.description}
+
+        ## Table of Contents
+
+        - [Description](#description)
+        - [Installation](#installation)
+        - [Usage](#usage)
+        - [License](#license)
+        - [Contributing](#contributing)
+        - [Tests](#tests)
+        - [Questions](#questions)
+
+        ## Installation
+
+        ${answers.installation}
+
+        ## Usage
+
+        ${answers.usage}
+
+        ## License
+
+        This project is licensed under the ${answers.license} license.
+
+        ## Contributing
+
+        ${answers.contributing}
+
+        ## Tests
+
+        ${answers.tests}
+
+        ## Questions
+
+        My GitHub profile is [GitHub](https://github.com/${answers.github}).
+        If you have additional questions, you can reach me at [${answers.email}](mailto:${answers.email}).
+        `;
+
+    // Function to write to README file
+        writeToFile('README.md', readmeContent);
+    });
+}
