@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
 ## Description
-command-line application that generates README files.
+Command line application that generates README files.
 
 ## Table of Contents
 * [Installation](#installation)
