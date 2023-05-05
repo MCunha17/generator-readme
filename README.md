@@ -14,16 +14,16 @@ This command-line application generates a professional README.md file based on t
 * [Questions](#questions)
 
 ## Installation
-Ensure that you have Node.js installed on your computer. Then clone the repository and open a command prompt to navigate to the project directory. Finally, run 'npm install'.
+Ensure that you have Node.js installed on your computer. Next, clone the repository and open a terminal/command prompt and navigate to the project directory. Finally, run 'npm install'.
 
 ## Usage
-Navigate to the project directory and run the command 'node index.js'. Answer the prompts to provide information about your project. Once completed, a README.md file will generate.
+Navigate to the project directory and run the command 'node.index.js'. Answer the prompts. Once complete, a README.md file will generate.
 
 ## Contributing
-If you would like to contribute, please fork the repository and submit a pull request with your proposed changes.
+If you would like to contribute, please fork the repository and submit a pull request.
 
 ## Tests
-If you would like to contribute by adding tests, please follow the contribution guidelines.
+Currently there are no tests implemented. If you would like to contribute, please follow the contribution guidelines.
 
 
 ## License
