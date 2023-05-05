@@ -58,7 +58,7 @@ ${data.tests}
 ${renderLicenseSection(data.license)}
 
 ## Questions
-My GitHub profile is ${data.github}(https://github.com/${data.github}). If you have any questions, you can contact me at ${data.email}.
+If you have any questions, please visit my [Github Profile](https://github.com/${data.github}) or contact me at ${data.email}.
 `;
 }
 
