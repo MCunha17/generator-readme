@@ -39,7 +39,7 @@ This project is licensed under: ${data.license}.
 ${data.tests}
 
 ## Questions
-If you have any questions, please visit my GitHub profile [${data.github}](https://github.com/${data.github}) or contact me at [${data.email}](mailto:${data.email}).
+If you have any questions, please visit my GitHub profile [${data.github}](https://github.com/${data.github}) or contact me at ${data.email}.
 `;
 }
 

@@ -37,4 +37,4 @@ This project is licensed under: MIT License.
 Currently, there are no tests implemented for this project. If you would like to contribute, please follow the [contributing guidelines](#contributing).
 
 ## Questions
-If you have any questions, please visit my GitHub profile [MCunha17](https://github.com/MCunha17) or contact me at [cunha.maria.theresa@gmail.com](mailto:cunha.maria.theresa@gmail.com).
+If you have any questions, please visit my GitHub profile [MCunha17](https://github.com/MCunha17) or contact me at cunha.maria.theresa@gmail.com.
