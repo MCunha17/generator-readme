@@ -1,9 +1,9 @@
-# README.md Generator
+# README Generator
 
 ![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
 ## Description
-This command-line application generates a professional README.md file based on the user's inputs.
+Command-line application that generates README files.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,16 +14,16 @@ This command-line application generates a professional README.md file based on t
 * [Questions](#questions)
 
 ## Installation
-Ensure that you have Node.js installed on your computer. Next, clone the repository and open a terminal/command prompt and navigate to the project directory. Finally, run 'npm install'.
+Run 'npm install'.
 
 ## Usage
-Navigate to the project directory and run the command 'node.index.js'. Answer the prompts. Once complete, a README.md file will generate.
+Run 'node.index.js'.
 
 ## Contributing
-If you would like to contribute, please fork the repository and submit a pull request.
+Fork the repo and submit a pull request.
 
 ## Tests
-Currently there are no tests implemented. If you would like to contribute, please follow the contribution guidelines.
+Currently, there are no tests but contributions are welcome.
 
 
 ## License
