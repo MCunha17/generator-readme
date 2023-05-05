@@ -14,7 +14,7 @@ Command line application that generates README files.
 * [Questions](#questions)
 
 ## Installation
-Run 'npm install'.
+Run 'npm install.'
 
 ## Usage
 Run 'node index.js'.
@@ -27,8 +27,7 @@ Currently there are no tests but contributions are welcome.
 
 
 ## License
-
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit-license/) license.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit-license/).
 
 
 ## Questions

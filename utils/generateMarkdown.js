@@ -11,7 +11,7 @@ function renderLicenseLink(license) {
   if (license === 'None') {
     return '';
   }
-  return `https://choosealicense.com/licenses/${license.toLowerCase().replace(/ /g, '-')}/`;
+  return `https://choosealicense.com/licenses/${encodeURIComponent(license.toLowerCase().replace(/ /g, '-'))}/`;
 }
 
 // Function to return the license section of README. If there is no license, returns an empty string.
@@ -21,8 +21,7 @@ function renderLicenseSection(license) {
   }
   return `
 ## License
-
-This project is licensed under the [${license}](${renderLicenseLink(license)}) license.
+This project is licensed under the [${license}](${renderLicenseLink(license)}).
 `;
 }
 
