@@ -14,13 +14,13 @@ Command line application that generates README files.
 * [Questions](#questions)
 
 ## Installation
-Run 'npm install.'
+Run 'npm install'.
 
 ## Usage
 Run 'node index.js'.
 
 ## Contributing
-Fork the repo and submit a pull request.
+Fork the Repo and submit a pull request.
 
 ## Tests
 Currently there are no tests but contributions are welcome.
